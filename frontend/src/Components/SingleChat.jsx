@@ -23,7 +23,7 @@ import io from 'socket.io-client';
 import Lottie from 'react-lottie';
 import animationData from '../animations/typing.json';
 
-const ENDPOINT = 'https://vmt-chat-app-demo.herokuapp.com/';
+const ENDPOINT = 'https://chat-app-demo-vmt.herokuapp.com/';
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
